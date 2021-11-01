@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_custommenu_HinhMon"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/img_chitiet_coffee"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/txt_custommenu_TenMon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="#374E4D4D"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="  Milk Coffee"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_custommenu_TinhTrang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Còn món"
+            android:layout_gravity="top|right"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+            android:background="#F88F8F"
+            android:fontFamily="sans-serif-medium"/>
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img_custommenu_HinhMon"
+        android:background="#E6E6E6"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/txt_custommenu_GiaTien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40,000VND"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:layout_centerInParent="true"
+            android:textSize="18dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

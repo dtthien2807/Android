@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="opentoggle">Mở</string>
+    <string name="closetoggle">Đóng</string>
+    <string name="addTable">Thêm</string>
+    <string name="addCategory">Thêm loại</string>
+    <string name="addMenu">Thêm món</string>
+    <string name="editcategory">Sửa loại</string>
+    <string name="not_empty">Không được để trống</string>
+    <string name="choseimg">Chọn hình</string>
+    <string name="delete_sucessful">xóa thành công</string>
+    <string name="delete_failed">xóa thất bại</string>
+    <string name="add_sucessful">Thêm thành công</string>
+    <string name="add_failed">Thêm thất bại</string>
+    <string name="edit_sucessful">Sửa thành công</string>
+    <string name="edit_failed">Sửa thất bại</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AddCategoryActivity"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#E6E6E6"
+    >
+
+    <ImageView
+        android:id="@+id/img_addcategory_back"
+        android:layout_width="54dp"
+        android:layout_height="69dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_back" />
+    <TextView
+        android:id="@+id/txt_addcategory_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm loại"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txtl_addcategory_TenLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Nhập tên loại"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/black"
+            app:boxStrokeWidthFocused="2dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-medium"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/img_addcategory_ThemHinh"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_chitiet_coffee" />
+
+        <Button
+            android:id="@+id/btn_addcategory_TaoLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/black"
+            android:backgroundTint="@color/black"
+            android:elevation="5dp"
+            android:text="Thêm Loại"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/black"
+            />
+
+    </LinearLayout>
+</LinearLayout>
